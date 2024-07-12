@@ -1,7 +1,7 @@
 console.log("GAME initialized");
 const gameOverElement = document.querySelector("#game-over-screen");
 
-const game = {
+const game = {dsadsadsadsadsadsa
   score: 0,
   lives: 6,
   enemies: [],
@@ -11,7 +11,7 @@ const game = {
     if (this.lives <= 0) {
       gameOverElement.style.display = "flex";
       this.isGameOver = true;
-    }
+    }adsgdsagf
   },
 };
 
@@ -21,8 +21,8 @@ livesElement.textContent = "💖".repeat(game.lives);
 // create a reference to the game area
 const gameArea = document.querySelector("#game-area");
 console.table({
-  gameAreaHeight: gameArea.offsetHeight,
-  gameAreaWidth: gameArea.offsetWidth,
+  gameAreaHeight: gameAreaeyytg.offsetHeight,
+  gameAreaWidth: gameArea.offsetWidth,hfdgfhdfghfd
 });
 
 function shakeGameArea() {
